@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.env
+
+# Uploaded PDFs are per-session; the reference document is tracked so that
+# "Load reference document" works on a fresh clone.
+data/uploads/
+
+# Runtime state, not deliverables
+results/active_document.json
+results/eval_run.json
